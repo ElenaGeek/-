@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maket Figma</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <!--   Block 1 Header -->
+    <header class="header">
+        <div class="header-flex wrap">
+            <div class="header-left">
+                <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo"> </a>
+                <a href="#"><img class="search" src="img/Search.svg" alt="Search"> </a>
+
+                <!--        <a href="#" class="fa fa-search"></a> -->
+            </div>
+            <div class="header-right">
+                <button class="menu-button">
+                    <img src="img/Burger.svg" width="32" height="23" alt="Menu">
+                </button>
+
+                <div class="menu-overlay">
+                    <nav class="menu-nav">
+                        <button class="menu-close">
+                            <img src="img/delete.png" alt="Delete">
+                        </button>
+                        <p class="tmenu">MENU</p>
+                        <ul class="gmenu">
+                            <li class="gmenu-list"><a href="#" class="gmenu-link gmenu-link active">MAN</a>
+                                <ul class="prmenu">
+                                    <li class="prm-list"><a href="#" class="prm-link">Accessories</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">Bags</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">Denim</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">T-Shirts</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="gmenu-list"><a href="#" class="gmenu-link gmenu-link active">WOMAN</a>
+                                <ul class="prmenu">
+                                    <li class="prm-list"><a href="#" class="prm-link">Accessories</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">Jackets & Coats</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">Polos</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">T-Shirts</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">Shirts</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="gmenu-list"><a href="#" class="gmenu-link gmenu-link active">KIDS</a>
+                                <ul class="prmenu">
+                                    <li class="prm-list"><a href="#" class="prm-link">Accessories</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">Jackets & Coats</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">Polos</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">T-Shirts</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">Shirts</a></li>
+                                    <li class="prm-list"><a href="#" class="prm-link">Bags</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+                <a href="contact.html"><img class="person" src="img/Person.svg" alt="Person"> </a>
+                <a href="cart.html"><img class="cart" src="img/Cart.svg" alt="Cart"> </a>
+
+                <!--    <a href="#" class="fa fa-user-o"></a>
+                <a href="#" class="fa fa-shopping-cart"></a>  -->
+
+            </div>
+        </div>
+    </header>
+
+    <!--   Block 2 Breadcrumb Small Menu-->
+    <main>
+        <h1 class="title-hidden">Catalog</h1>
+
+        <section class="breadcrumb">
+            <div class="bread-flex wrap">
+                <div class="bread-left">
+                    <h2 class="bread-title">NEW ARRIVALS</h2>
+                </div>
+                <div class="bread-right">
+                    <div class="bread-menu">
+                        <ul>
+                            <li class="small-menu"><a href="index.html" class="small-menu-link">HOME /</a></li>
+                            <li class="small-menu"><a href="#" class="small-menu-link">MEN /</a></li>
+                            <li class="small-menu"><a href="#" class="small-menu-link small-menu-link-active">NEW
+                                    ARRIVALS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="clearfix"></div>
+        <!--   Main Menu -->
+
+        <!--   Block 3 Filter SORT -->
+        <section class="filters">
+            <h2 class="title-hidden">Фильтры товаров</h2>
+            <div class="filters-float wrap">
+                <div class="filter-left-flex">
+                    <!--     <h3 class="filter-title">FILTER</h3>
+                    <div class="fil-rec"></div>-->
+                    <details class="filter-details">
+                        <summary class="sum-details"><span class="sum-p">FILTER</span><img class="sum-i" src="img/Vector.svg" width="15" height="10"
+                                alt="Filter"></summary>
+                               
+                        <!--       
+                        <summary class="sum-details-m"><img src="img/VectorM.svg" width="15" height="10"
+                                    alt="Filter"></summary>   -->    
+                        <details class="filter-det">
+                            <summary class="sum-det"><img src="img/FR.png" alt="Line"
+                                    style="margin-right: 11px;">CATEGORY</summary>
+                            <p>Accessories</p>
+                            <p>Bags</p>
+                            <p>Denim</p>
+                            <p>Hoodies & Sweatshirts</p>
+                            <p>Jackets</p>
+                            <p>Polos</p>
+                            <p>Shirts</p>
+                            <p>Shoes</p>
+                            <p>Sweaters & Knits</p>
+                            <p>T-Shirts</p>
+                            <p>Tanks</p>
+                        </details>
+                        <h4 class="sum-det"><img src="img/FR.png" alt="Line" style="margin-right: 11px;">BRAND</h4>
+                        <h4 class="sum-det"><img src="img/FR.png" alt="Line" style="margin-right: 11px;">DESIGNER</h4>
+                    </details>
+                </div>
+
+                <div class="filter-right-sort">
+
+                    <!--  SORT  -->
+
+                    <details class="filter-sort">
+                        <summary class="fil-det">TRENDING NOW <img src="img/ArrD.png" width="15" height="10"
+                                alt="Arrow"></summary>
+                        <div class=fil-sort>
+                            <label class="fil-det"> <input type="checkbox"> TRENDING</label>
+                            <label class="fil-det"> <input type="checkbox"> CLASSIC</label>
+                            <label class="fil-det"> <input type="checkbox"> MODERN</label>
+                        </div>
+                    </details>
+
+                    <details class="filter-sort">
+                        <summary class="fil-det">SIZE <img src="img/ArrD.png" width="15" height="10" alt="Arrow">
+                        </summary>
+                        <div class=fil-sort>
+                            <label class="fil-det"> <input type="checkbox"> XS</label>
+                            <label class="fil-det"> <input type="checkbox"> S</label>
+                            <label class="fil-det"> <input type="checkbox"> M</label>
+                            <label class="fil-det"> <input type="checkbox"> L</label>
+                        </div>
+                    </details>
+
+                    <details class="filter-sort">
+                        <summary class="fil-det">PRICE <img src="img/ArrD.png" width="15" height="10" alt="Arrow">
+                        </summary>
+                        <div class=fil-sort>
+                            <label class="fil-det"> <input type="checkbox"> LOW</label>
+                            <label class="fil-det"> <input type="checkbox"> MEDIUM</label>
+                            <label class="fil-det"> <input type="checkbox"> HIGH</label>
+                        </div>
+                    </details>
+
+                    <!--
+                    <select name="sort" class="filter-sort">
+                        <option value="#">TRENDING NOW</option>
+                        <option value="#">CLASSIC</option>
+                        <option value="#">MODERN</option>
+                    </select>
+                    <select name="sort" class="filter-sort">
+                        <option value="#">SIZE</option>
+                        <option value="#">XS</option>
+                        <option value="#">S</option>
+                        <option value="#">M</option>
+                        <option value="#">L</option>
+                    </select>
+                    <select name="sort" class="filter-sort">
+                        <option value="#">PRICE</option>
+                        <option value="#">LOW</option>
+                        <option value="#">MEDIUM</option>
+                        <option value="#">HIGH</option>
+                    </select>
+                    
+                    <form name="fsort" class="filter-sort">
+                        <p>TRENDING NOW <img src="img/ArrD.png" alt="Arrow"></p>
+                        <input id="select" type="checkbox" value="0" name="v1"> 
+                        <label for="select">TRENDING NOW</label>
+                        <input id="select" type="checkbox" value="0" name="v1"> 
+                        <label for="select">CLASSIC</label>
+                        <input id="select" type="checkbox" value="0" name="v1"> 
+                        <label for="select">MODERN</label>
+                    </form>
+    -->
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--   Block 4 Catalog Products -->
+        <section class="products">
+            <h2 class="title-hidden">Карточки продуктов</h2>
+
+            <div class="catproducts-flex wrap">
+
+                <div class="productcard">
+                    <a href="product.html"><img src="img/Cat1.png" alt="Product"></a>
+                    <div class="overlay">
+                        <button class="button-pr"> <img class="butcart" src="img/Cartwhite.svg" width="26" height="24"
+                                alt="Cart">Add to cart</button>
+                    </div>
+                    <a href="product.html">
+                        <h4 class="prcard-title">ELLERY X M'O CAPSULE </h4>
+                    </a>
+                    <p class="prcard">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="prprice">$52.00</p>
+
+                </div>
+                <div class="productcard">
+                    <a href="product.html"><img src="img/Cat2.png" alt="Product"></a>
+                    <div class="overlay">
+                        <button class="button-pr"> <img class="butcart" src="img/Cartwhite.svg" width="26" height="24"
+                                alt="Cart">Add to cart</button>
+                    </div>
+                    <a href="product.html">
+                        <h4 class="prcard-title">ELLERY X M'O CAPSULE </h4>
+                    </a>
+                    <p class="prcard">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="prprice">$52.00</p>
+
+                </div>
+
+                <div class="productcard skip">
+                    <a href="product.html"><img src="img/Cat3.png" alt="Product"></a>
+                    <div class="overlay">
+                        <button class="button-pr"> <img class="butcart" src="img/Cartwhite.svg" width="26" height="24"
+                                alt="Cart">Add to cart</button>
+                    </div>
+                    <a href="product.html">
+                        <h4 class="prcard-title">ELLERY X M'O CAPSULE </h4>
+                    </a>
+                    <p class="prcard">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="prprice">$52.00</p>
+
+                </div>
+
+                <div class="productcard">
+                    <a href="product.html"><img src="img/Cat4.png" alt="Product"></a>
+                    <div class="overlay">
+                        <button class="button-pr"> <img class="butcart" src="img/Cartwhite.svg" width="26" height="24"
+                                alt="Cart">Add to cart</button>
+                    </div>
+                    <a href="product.html">
+                        <h4 class="prcard-title">ELLERY X M'O CAPSULE </h4>
+                    </a>
+                    <p class="prcard">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="prprice">$52.00</p>
+
+                </div>
+                <div class="productcard even">
+                    <a href="product.html"><img src="img/Cat5.png" alt="Product"></a>
+                    <div class="overlay">
+                        <button class="button-pr"> <img class="butcart" src="img/Cartwhite.svg" width="26" height="24"
+                                alt="Cart">Add to cart</button>
+                    </div>
+                    <a href="product.html">
+                        <h4 class="prcard-title">ELLERY X M'O CAPSULE </h4>
+                    </a>
+                    <p class="prcard">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="prprice">$52.00</p>
+
+                </div>
+                <div class="productcard">
+                    <a href="product.html"><img src="img/Cat6.png" alt="Product"></a>
+                    <div class="overlay">
+                        <button class="button-pr"> <img class="butcart" src="img/Cartwhite.svg" width="26" height="24"
+                                alt="Cart">Add to cart</button>
+                    </div>
+                    <a href="product.html">
+                        <h4 class="prcard-title">ELLERY X M'O CAPSULE </h4>
+                    </a>
+                    <p class="prcard">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="prprice">$52.00</p>
+
+                </div>
+                <div class="productcard">
+                    <a href="product.html"><img src="img/Cat7.png" alt="Product"></a>
+                    <div class="overlay">
+                        <button class="button-pr"> <img class="butcart" src="img/Cartwhite.svg" width="26" height="24"
+                                alt="Cart">Add to cart</button>
+                    </div>
+                    <a href="product.html">
+                        <h4 class="prcard-title">ELLERY X M'O CAPSULE </h4>
+                    </a>
+                    <p class="prcard">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="prprice">$52.00</p>
+
+                </div>
+                <div class="productcard">
+                    <a href="product.html"><img src="img/Cat8.png" alt="Product"></a>
+                    <div class="overlay">
+                        <button class="button-pr"> <img class="butcart" src="img/Cartwhite.svg" width="26" height="24"
+                                alt="Cart">Add to cart</button>
+                    </div>
+                    <a href="product.html">
+                        <h4 class="prcard-title">ELLERY X M'O CAPSULE </h4>
+                    </a>
+                    <p class="prcard">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="prprice">$52.00</p>
+
+                </div>
+                <div class="productcard">
+                    <a href="product.html"><img src="img/Cat9.png" alt="Product"></a>
+                    <div class="overlay">
+                        <button class="button-pr"> <img class="butcart" src="img/Cartwhite.svg" width="26" height="24"
+                                alt="Cart">Add to cart</button>
+                    </div>
+                    <a href="product.html">
+                        <h4 class="prcard-title">ELLERY X M'O CAPSULE </h4>
+                    </a>
+                    <p class="prcard">Known for her sculptural takes on traditional tailoring, Australian arbiter of
+                        cool Kym Ellery teams up with Moda Operandi.</p>
+                    <p class="prprice">$52.00</p>
+
+                </div>
+                <div class="pagination-flex">
+                    <div class="pagination">
+                        <a class="pag pag-start" href="#">❮</a>
+                        <a class="pag pag-active" href="#">1</a>
+                        <a class="pag" href="#">2</a>
+                        <a class="pag" href="#">3</a>
+                        <a class="pag" href="#">4</a>
+                        <a class="pag" href="#">5</a>
+                        <a class="pag" href="#">6.....20</a>
+                        <a class="pag pag-end" href="#">❯</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+    </main>
+
+    <!--   Block 5 Feature -->
+    <section class="feature">
+        <h2 class="title-hidden">Сервисы</h2>
+        <div class="feature-flex wrap">
+            <div class="featform">
+                <img src="img/F1.png" alt="Delivery">
+                <h5 class="feat-title">Free Delivery</h5>
+                <p class="feat-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                    extensive models.</p>
+            </div>
+            <div class="featform">
+                <img src="img/F2.png" alt="Discount">
+                <h5 class="feat-title">Sales & discounts</h5>
+                <p class="feat-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                    extensive models.</p>
+            </div>
+            <div class="featform">
+                <img src="img/F3.png" alt="Assurance">
+                <h5 class="feat-title">Quality assurance</h5>
+                <p class="feat-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                    extensive models.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--   Block 6 Frame Subscribe-->
+    <aside class="subscription">
+        <section class="frame">
+            <h2 class="title-hidden">Подписка</h2>
+
+            <div class="frame-ph">
+                <div class="frame-flex wrap">
+                    <div class="subscr-left">
+
+                        <img class="subphoto" src="img/Intersect.png" alt="Photo">
+                        <p class="info">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                            condimentum“</p>
+
+                    </div>
+                    <div class="subscr-right">
+                        <h3 class="subtitle">SUBSCRIBE</h3>
+                        <p class="subtext">FOR OUR NEWLETTER AND PROMOTION</p>
+
+                        <form action="#" class="subscribe">
+                            <input class="field" type="email" placeholder="Enter Your Email">
+                            <input class="button" type="submit" value="Subscribe">
+
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </aside>
+    <!--   Block 7 Footer -->
+    <footer class="footer">
+        <div class="footer-flex wrap">
+            <p class="copyr">© 2021 Brand All Rights Reserved.</p>
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-twitter"></a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector(".menu-button").onclick = function () {
+            document.querySelector(".menu-overlay").classList.add("menu-overlay-op");
+        }
+
+        document.querySelector(".menu-close").onclick = function () {
+            document.querySelector(".menu-overlay").classList.remove("menu-overlay-op");
+        }
+    </script>
+
+</body>
+
+</html>

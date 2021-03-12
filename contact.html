@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maket Figma</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <!--   Block 1 Header -->
+    <header class="header">
+        <div class="header-flex wrap">
+            <div class="header-left">
+                <a href="index.html"><img class="logo" src="img/logo.png" alt="Logo"> </a>
+                <a href="#"><img class="search" src="img/Search.svg" alt="Search"> </a>
+
+                <!--        <a href="#" class="fa fa-search"></a> -->
+            </div>
+            <div class="header-right">
+                <button class="menu-button">
+                    <img src="img/Burger.svg" width="32" height="23" alt="Menu">
+                </button>
+
+                <div class="menu-overlay">
+                    <nav class="menu-nav">
+                        <button class="menu-close">
+                            <img src="img/delete.png" alt="Delete">
+                        </button>
+                        <p class="tmenu">MENU</p>
+                                    <ul class="gmenu">
+                                        <li class="gmenu-list"><a href="#" class="gmenu-link gmenu-link active">MAN</a>
+                                            <ul class="prmenu">
+                                                <li class="prm-list"><a href="#" class="prm-link">Accessories</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">Bags</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">Denim</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">T-Shirts</a></li>
+                                            </ul>
+                                        </li>
+                    
+                                        <li class="gmenu-list"><a href="#" class="gmenu-link gmenu-link active">WOMAN</a>
+                                            <ul class="prmenu">
+                                                <li class="prm-list"><a href="#" class="prm-link">Accessories</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">Jackets & Coats</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">Polos</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">T-Shirts</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">Shirts</a></li>
+                                            </ul>
+                                        </li>
+                    
+                                        <li class="gmenu-list"><a href="#" class="gmenu-link gmenu-link active">KIDS</a>
+                                            <ul class="prmenu">
+                                                <li class="prm-list"><a href="#" class="prm-link">Accessories</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">Jackets & Coats</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">Polos</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">T-Shirts</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">Shirts</a></li>
+                                                <li class="prm-list"><a href="#" class="prm-link">Bags</a></li>
+                                            </ul>
+                                        </li>
+                    
+                                    </ul>
+                    </nav>
+                    </div>
+
+                <a href="#"><img class="person" src="img/Person.svg" alt="Person"> </a>
+                <a href="cart.html"><img class="cart" src="img/Cart.svg" alt="Cart"> </a>
+
+                <!--    <a href="#" class="fa fa-user-o"></a>
+                <a href="#" class="fa fa-shopping-cart"></a></a>  -->
+
+            </div>
+        </div>
+    </header>
+
+    <!--   Block 2 Cart Breadcrumb-->
+    <main>
+        <h1 class="title-hidden">Catalog</h1>
+
+        <section class="breadcrumb">
+            <div class="bread-flex wrap">
+                <div class="bread-left">
+                    <h2 class="bread-title">REGISTRATION</h2>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="clearfix"></div>
+        <!--   Main Menu -->
+
+        <!--   Block 3 Contact Registration Formes -->
+        <section class="registration wrap">
+            <h2 class="title-hidden">Registration</h2>
+            <section class="registration-formes">
+                <h2 class="title-hidden">Формы для регистрации</h2>
+                <div class="registration-form1">
+
+                    <h3 class="reg-title">YOUR NAME</h3>
+                        <form action="#" class="name">
+                            <input class="reg-field" type="text" placeholder="First name" style="color: #b1b1b1;">
+                            <input class="reg-field" type="text" placeholder="Last name" style="color: #b1b1b1;">
+
+                        </form>
+                        <form action="#" class="gender">
+                            <input class="reg-g" type="radio" style="width: 17px" name="gen">Male
+                            <input class="reg-g" type="radio" style="width: 17px" name="gen">Female
+                        </form>
+
+                </div>
+                <div class="registration-form2">
+
+                    <h3 class="reg-title">Login details</h3>
+                        <form action="#" class="login">
+                    
+                            <input class="reg-field" type="email" placeholder="Email">
+                            <input class="reg-field" type="password" value="Password">
+                
+                <p class="reg-p">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
+                    lowercase letters</p>
+               
+  <!--           <input class="button-reg" type="submit" value="JOIN NOW    >"> -->
+                    
+                    <button class="button-reg">JOIN NOW<img src="img/VGr.png" alt="Go"></button>
+                </form>
+
+                <!--
+                <div class="button-reg vis" >  
+                    <a class="butreg" href="#">JOIN NOW</a>
+                    <img src="img/Vgr.png" alt="Go">
+                </div>    
+            -->
+                
+            </div>
+
+            </section>
+
+            <!--   Block 3-1 Contact Registration Loyalty -->
+            <section class="registration-loyalty">
+                <h2 class="title-hidden">Программа лояльности</h2>
+                <div class="registartion-loyalty-text">
+
+                    <h3 class="reg-title">LOYALTY HAS ITS PERKS</h3>
+
+                    <p class="prega">Get in on the loyalty program where you can earn points and unlock serious
+                        perks. Starting with these as soon as you join:</p>
+
+                    <div class="pre">
+                    
+                    <p class="preg"><img class="vp" src="img/V.png" alt="V">15% off welcome offer</p>
+                    
+                    <p class="preg"><img class="vp" src="img/V.png" alt="V">Free shipping, returns and exchanges on all orders</p>
+                   
+                    <p class="preg"><img class="vp" src="img/V.png" alt="V">$10 off a purchase on your birthday</p>
+                   
+                    <p class="preg"><img class="vp" src="img/V.png" alt="V">Early access to products</p>
+                    
+                    <p class="preg"><img class="vp" src="img/V.png" alt="V">Exclusive offers & rewards</p>
+                </div>
+
+                </div>
+
+            </section>
+        </section>
+
+    </main>
+
+
+    <!--   Block 6 Frame Subscribe-->
+    <aside class="subscription">
+        <section class="frame">
+            <h2 class="title-hidden">Подписка</h2>
+
+            <div class="frame-ph">
+                <div class="frame-flex wrap">
+                    <div class="subscr-left">
+
+                        <img class="subphoto" src="img/Intersect.png" alt="Photo">
+                        <p class="info">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                            condimentum“</p>
+
+                    </div>
+                    <div class="subscr-right">
+                        <h3 class="subtitle">SUBSCRIBE</h3>
+                        <p class="subtext">FOR OUR NEWLETTER AND PROMOTION</p>
+
+                        <form action="#" class="subscribe">
+                            <input class="field" type="email" placeholder="Enter Your Email">
+                            <input class="button" type="submit" value="Subscribe">
+
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </aside>
+    <!--   Block 7 Footer -->
+    <footer class="footer">
+        <div class="footer-flex wrap">
+            <p class="copyr">© 2021 Brand All Rights Reserved.</p>
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+                <a href="#" class="fa fa-twitter"></a>
+
+            </div>
+        </div>
+    </footer>
+
+<script>
+
+        document.querySelector(".menu-button").onclick = function(){
+            document.querySelector(".menu-overlay").classList.add("menu-overlay-op");
+        }
+        
+        document.querySelector(".menu-close") .onclick = function(){
+            document.querySelector(".menu-overlay").classList.remove("menu-overlay-op");
+        }        
+        
+    </script>
+
+</body>
+
+</html>
